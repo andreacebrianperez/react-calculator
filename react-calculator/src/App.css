@@ -13,16 +13,6 @@
   src: url(../public/assets/fonts/Poppins-Medium.ttf);
 }
 
-@font-face {
-  font-family: Poppins-Regular;
-  src: url(../public/assets/fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url(../public/assets/fonts/Poppins-SemiBold.ttf);
-}
-
 .App {
   text-align: center;
   height: 100vh;
@@ -154,58 +144,6 @@
 
 .textMediumXL {
   font-family: Poppins-Medium;
-  font-size: 48px;
-}
-
-/* POPPINS-REGULAR */
-.textRegularXS {
-  font-family: Poppins-Regular;
-  font-size: 12px;
-}
-
-.textRegularS {
-  font-family: Poppins-Regular;
-  font-size: 18px;
-}
-
-.textRegularM {
-  font-family: Poppins-Regular;
-  font-size: 24px;
-}
-
-.textRegularL {
-  font-family: Poppins-Regular;
-  font-size: 36px;
-}
-
-.textRegularXL {
-  font-family: Poppins-Regular;
-  font-size: 48px;
-}
-
-/* POPPINS-SEMIBOLD */
-.textSemiboldXS {
-  font-family: Poppins-SemiBold;
-  font-size: 12px;
-}
-
-.textSemiboldS {
-  font-family: Poppins-SemiBold;
-  font-size: 18px;
-}
-
-.textSemiboldM {
-  font-family: Poppins-SemiBold;
-  font-size: 24px;
-}
-
-.textSemiboldL {
-  font-family: Poppins-SemiBold;
-  font-size: 36px;
-}
-
-.textSemiboldXL {
-  font-family: Poppins-SemiBold;
   font-size: 48px;
 }
 

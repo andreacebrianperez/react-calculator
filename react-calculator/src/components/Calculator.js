@@ -61,26 +61,26 @@ export default function Calculator() {
           <Box m={12} />
           <div>
             <h1 className='result textBoldXL'>{num}</h1>
-            <Button className='lightButton textRegularM' onClick={clear}> AC </Button>
-            <Button className='lightButton textRegularM' onClick={changeSign}> +/- </Button>
-            <Button className='lightButton textRegularM' onClick={percentage}> % </Button>
-            <Button className='lightButton textRegularM' onClick={operatorHandler} value={'/'}> / </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={7}> 7 </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={8}> 8 </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={9}> 9 </Button>
-            <Button className='lightButton textRegularM' onClick={operatorHandler} value={'X'}> X </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={4}> 4 </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={5}> 5 </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={6}> 6 </Button>
-            <Button className='lightButton textRegularM' onClick={operatorHandler} value={'-'}> - </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={1}> 1 </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={2}> 2 </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={3}> 3 </Button>
-            <Button className='lightButton textRegularM' onClick={operatorHandler} value={'+'}> + </Button>
-            <Button className='darkButton textRegularM' onClick={inputNum} value={0}> 0 </Button>
+            <Button className='lightButton textMediumM' onClick={clear}> AC </Button>
+            <Button className='lightButton textMediumM' onClick={changeSign}> +/- </Button>
+            <Button className='lightButton textMediumM' onClick={percentage}> % </Button>
+            <Button className='lightButton textMediumM' onClick={operatorHandler} value={'/'}> / </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={7}> 7 </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={8}> 8 </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={9}> 9 </Button>
+            <Button className='lightButton textMediumM' onClick={operatorHandler} value={'X'}> X </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={4}> 4 </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={5}> 5 </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={6}> 6 </Button>
+            <Button className='lightButton textMediumM' onClick={operatorHandler} value={'-'}> - </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={1}> 1 </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={2}> 2 </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={3}> 3 </Button>
+            <Button className='lightButton textMediumM' onClick={operatorHandler} value={'+'}> + </Button>
+            <Button className='darkButton textMediumM' onClick={inputNum} value={0}> 0 </Button>
             <Button style={{visibility:"hidden"}}> a </Button>
-            <Button className='lightButton textRegularM' onClick={inputNum} value={'.'}> , </Button>
-            <Button className='lightButton textRegularM' onClick={calculate}> = </Button>
+            <Button className='lightButton textMediumM' onClick={inputNum} value={'.'}> , </Button>
+            <Button className='lightButton textMediumM' onClick={calculate}> = </Button>
           </div>
         </div>
       </Container>
